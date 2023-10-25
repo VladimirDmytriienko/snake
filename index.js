@@ -23,7 +23,7 @@ let snake = [
   { x: 0, y: 0 },
 ];
 
-////////////// MODAL
+
 const modal = document.getElementById("myModal");
 function displayModal() {
   modal.style.display = "flex";
