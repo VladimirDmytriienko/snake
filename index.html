@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <button id="easyBtn">Easy</button>
+    <button id="mediumBtn">Medium</button>
+    <button id="hardBtn">Hard</button> -->
+    <div class="main">
+       
+
+        <div id="gameContainer">
+
+            <div class="player-info">
+                <div id="playerNameDisplay"></div>
+                <div id="difficultyDisplay"></div>
+                <div id="scoreText">0</div>
+            </div>
+
+            <canvas id="gameBoard" width="600" height="600"></canvas>
+            <button id="resetBtn">Reset</button>
+            <button id="openModal">Start</button>
+        </div>
+        <div>
+            <h2>Top players</h2>
+            <div id="playerDataContainer">
+            
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Добро пожаловать!</h2>
+            <label for="playerName">Player name:</label>
+            <input type="text" id="playerName">
+            <label for="difficulty">Level:</label>
+            <select id="difficulty">
+                <option value="easy">easy</option>
+                <option value="medium">medium</option>
+                <option value="hard">hard</option>
+            </select>
+            <button id="startGame">Start</button>
+        </div>
+    </div>
+
+
+    
+
+    <script src="index.js"></script>
+</body>
+
+</html>
